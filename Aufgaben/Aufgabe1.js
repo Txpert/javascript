@@ -14,6 +14,7 @@ for (let produkt of inventar) {
   if (!kategorien[produkt.kategorie]) {
     kategorien[produkt.kategorie] = [];
   }
+
   kategorien[produkt.kategorie].push(produkt.name);
   console.log(kategorien)
 }
