@@ -1,3 +1,4 @@
+
 const buecher = [
     { titel: "Der Hobbit", autor: "J.R.R. Tolkien", jahr: 1937, gelesen: true },
     { titel: "Harry Potter und der Stein der Weisen", autor: "J.K. Rowling", jahr: 1997, gelesen: false },
@@ -28,6 +29,5 @@ const buecher = [
 
   const alleGelesen = buecher.every(buch => buch.gelesen);
   console.log(alleGelesen);
-
 
 
